@@ -1,4 +1,9 @@
 streamlit
 requests
+fastapi
+uvicorn
 pandas
 numpy
+scikit-learn
+joblib
+pydantic
