@@ -45,7 +45,7 @@ if st.button("Predict Price"):
 }
 
     response = requests.post(
-    "https://house-price-prediction-a2v6.onrender.com/predict",
+    "https://house-price-prediction-u812.onrender.com/predict",
     json=payload
 )
     # st.write("status code:",response.status_code)
@@ -62,7 +62,7 @@ if st.button("Predict Price"):
         #     floor
         # )
 
-    st.success(f"Estimated House Price : ₹ { result :.2f} Lakhs")   
+    st.success(f"Estimated House Price : Rs { result :.2f} Lakhs")   
     st.balloons()
 
 
